@@ -10,20 +10,19 @@
     }
     a[target] {
         color: red;
-     }
-    div [id="second-div"] p:nth-last-of-type(even) {
-        color:red;
     }
     div [id="second-div"] p:nth-last-of-type(odd) {
+        color:red;
+    }
+    div [id="second-div"] p:nth-last-of-type(even) {
         color:blue;
     }
     #first-div> p::after {
         content: "NEW";
-        color: green;
+        color: yellow;
     }
-        p:last-child :hover {
+    p:last-child :hover {
         font-style: italic;
-        cursor: pointer;
     }
     </style>
 </head>
